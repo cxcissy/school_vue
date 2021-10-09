@@ -1,0 +1,49 @@
+@charset "utf-8";
+main {
+  margin-top: 30px;
+}
+main ol.self-breadcrumb {
+  margin-top: -20px;
+  background-color: transparent;
+}
+main ol.self-breadcrumb li.active {
+  color: lightsalmon;
+}
+main ol.self-breadcrumb li a {
+  color: #333;
+}
+main div.self-con h4 {
+  text-align: center;
+  font-weight: bold;
+}
+main div.self-con p.pub-date {
+  text-align: center;
+  margin: 30px 0;
+}
+main div.self-con div.content img {
+  width: 100%;
+  margin: 10px 0;
+}
+main div.self-con div.content p {
+  margin: 10px 0;
+  text-indent: 2em;
+  line-height: 1.8;
+}
+main ul.self-right-ul li {
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+main ul.self-right-ul li i {
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 5px;
+  color: tomato;
+}
+main ul.self-right-ul li a {
+  text-decoration: none;
+}
+main ul.self-right-ul li a:hover {
+  color: red;
+}

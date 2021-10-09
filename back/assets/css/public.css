@@ -1,0 +1,121 @@
+body{
+    padding-top: 51px;
+}
+header>nav.self-nav{
+    background-color: #012269;
+}
+header>nav li.active>a{
+    background-color: #012269 !important;
+}
+header>nav form.nav-form{
+    margin-left: 200px;
+}
+header>nav button.self-form-btn{
+    position: absolute;
+    margin: 15px 30px 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+header>div{
+    background: url("../image/img8.jpg") no-repeat center center;
+}
+header>div div.bottom{
+    background-color: rgba(0,0,128,0.3);
+    line-height: 40px;
+    position: relative;
+}
+header>div div.container.top{
+    background: url("../image/img9.png") no-repeat right -20px;
+}
+header>div div.bottom div.container{
+    display: flex;
+    height: inherit;
+}
+header>div div.bottom div.container dl{
+    margin-bottom: 0;
+    height: inherit;
+    width: 128px;
+}
+header>div div.bottom div.container dl dt{
+    height: inherit;
+}
+header>div div.bottom div.container dl a{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+header>div div.bottom div.container dl:hover dt>a{
+    background-color: rgb(55,122,177);
+}
+header>div div.bottom div.container dl dd{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    background-color: rgba(200,200,200,0.9);
+    z-index: 10;
+}
+header>div div.bottom div.container dl:hover dd{
+    display: block;
+}
+header>div div.bottom div.container dl:hover dd div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+header>div div.bottom div.container dl:hover dd div.container.self-menu{
+    justify-content: center;
+}
+header>div div.bottom div.container dl:hover dd div.container a{
+    padding: 0 8px;
+    line-height: 30px;
+    color: #333333;
+}
+footer{
+    background: url("../image/img4.jpg") no-repeat center center;
+    color: white;
+    margin-top: 40px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+footer dl.self-footer-dl{
+    margin-top: 40px;
+}
+footer dl.self-footer-dl dd{
+    line-height: 1.6;
+}
+footer dl.self-footer-dl dt{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+footer dl.self-footer-dl dt::before{
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 1px;
+    top: 24px;
+    background-color: white;
+}
+footer div.self-footer-two{
+    background-color: #041438;
+    color: #6D7180;
+    font-family: 'simsun';
+    font-size: 15px;
+    line-height: 2.5;
+    letter-spacing: -1px;
+}

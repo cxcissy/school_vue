@@ -1,0 +1,66 @@
+@charset "utf-8";
+main {
+  margin-top: 30px;
+}
+main div.self-left-nav {
+  margin-left: 50px;
+}
+main div.self-left-nav li.active a {
+  border: none!important;
+  color: red!important;
+}
+main div.self-left-nav li a {
+  font-size: 18px;
+  line-height: 3;
+  font-weight: bold;
+}
+main ol.self-breadcrumb {
+  margin-top: -20px;
+  background-color: transparent;
+}
+main ol.self-breadcrumb li.active {
+  color: lightsalmon;
+}
+main ol.self-breadcrumb li a {
+  color: #eee;
+}
+main .self-media {
+  width: 100%;
+}
+main .self-media img {
+  border: 1px solid darkblue;
+  border-radius: 4px;
+}
+main .self-media:not(:last-child) {
+  border-bottom: 1px dashed gainsboro;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+main .self-media a {
+  text-decoration: none;
+}
+main .self-media a div.head {
+  display: flex;
+}
+main .self-media a div.head h4 {
+  flex: 5;
+  color: blue;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+main .self-media a div.head span {
+  margin-left: 60px;
+  flex: 1;
+  color: #666;
+  font-size: 14px;
+}
+main .self-media a p {
+  line-height: 1.8;
+  text-indent: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

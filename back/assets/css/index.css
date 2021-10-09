@@ -1,0 +1,83 @@
+@charset "utf-8";
+main div.self-text {
+  padding-bottom: 0;
+}
+main ol.news {
+  padding-left: 0;
+}
+main ol.news h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+main ul.hot {
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+main ul.hot li {
+  position: relative;
+}
+main ul.hot li:not(:last-child) {
+  margin-bottom: 20px;
+}
+main ul.hot li i {
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+main ul.hot h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+main ul.notice li a {
+  display: flex;
+  align-items: center;
+}
+main ul.notice li a h5 {
+  flex: 5;
+  margin-right: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+main ul.notice li a h5 i {
+  margin-right: 5px;
+}
+main ul.notice li a span {
+  flex: 1;
+}
+main ul.notice li a:hover {
+  color: red;
+}
+main ol.self-circle li {
+  border: 1px solid #CDCDCD;
+}
+main ol.self-circle li.active {
+  background-color: #40A1E3;
+}
+main img.slider2-img {
+  height: 490px !important;
+}
+main div.topics-img img {
+  width: 100%;
+}
+main div.topics-img p {
+  padding: 5px 0 5px 8px;
+  color: #666;
+  border-bottom: 1px solid gainsboro;
+}
+main div.topics-img a:hover img {
+  border: 1px solid #5D718E;
+  width: calc(100% - 5px);
+}
+main div.topics-img a:hover p {
+  color: #eeeeee;
+  border: 1px solid #5D718E;
+  background-color: #5D718E;
+  width: calc(100% - 5px);
+  box-sizing: border-box;
+}
